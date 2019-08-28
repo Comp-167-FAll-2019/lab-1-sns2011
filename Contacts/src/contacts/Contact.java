@@ -16,13 +16,18 @@ public class Contact {
     private String emailAddress;
 
     public Contact(String firstName, String lastName, String phoneNumber, String emailAddress) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phoneNumber = phoneNumber;
-        this.emailAddress = emailAddress;
+         String userName1;
+         String userName2;
+         String userphoneNumber;
+         String useremailAddress;
+         String getfirstname;
+         String getlastname;
+         getfirstName = firstname;
+         getlastName = lastname;
+                 
     }
     
     public String toString(){
-        return firstName + " " + lastName  " " + phoneNumber + " " + emailAddress;
+        return firstName + " " + lastName + " " + phoneNumber + " " + emailAddress;
     }
 }
